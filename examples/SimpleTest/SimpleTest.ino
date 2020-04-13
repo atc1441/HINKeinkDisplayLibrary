@@ -18,17 +18,21 @@ void setup() {
   display.setRotation(0);
   display.setTextSize(2);
   display.setTextColor(BLACK);
+  
+  display.setWhiteBorder();
+  //display.setBlackBorder();
+  //display.setRedBorder();
 }
 
 void loop() {
-  display.prepare();
+  display.prepare();// always call this to wake the display
   display.clearDisplay();
   display.fillCircle(display.eink_width / 2, display.eink_height / 2, 14, RED);
   display.setCursor(0, 0);
   display.println("Hello World");
   display.println(millis());
   display.display();
-  
+
   delay(10000);
 }
 

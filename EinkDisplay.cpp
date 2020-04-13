@@ -75,7 +75,7 @@ void EinkDisplay::prepare(void) {
   _writeData(0x00);//RAM Y End
 
   _writeCommand(0x3C);//Border Waveform Control
-  _writeData(0x01);//0 = black,1 = white,2 = Red
+  _writeData(border);//0 = black,1 = white,2 = Red
 
   _writeCommand(0x18);// Temperature sensor control
   _writeData(0x80);// 0x48 = External,0x80 = Internal
