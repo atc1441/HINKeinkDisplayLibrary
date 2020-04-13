@@ -11,7 +11,9 @@ Some interesting feature is the Border:
 use it via:
 
 display.setWhiteBorder();
+
 display.setBlackBorder();
+
 display.setRedBorder();
 
 
