@@ -16,7 +16,7 @@ display.setBlackBorder();
 
 display.setRedBorder();
 
-
+![Image of E-Paper Display](https://raw.githubusercontent.com/atc1441/HINKeinkDisplayLibrary/master/20200413_135931.jpg)
 
 ### Here are more infos on the Displays compatible with it:
 Youtube Video(click on the picture)
