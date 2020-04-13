@@ -2,7 +2,7 @@
 Driver for HINK E-Ink E-Paper Displays Arduino
 
 
-This library dont uses any Buffer, it will directly write to the E-Paper Display and dont uses much RAM.
+This library dont uses any Buffer, it will directly write to the E-Paper Display and dont uses much RAM, it is not as fast as with buffer.
 
 you also need the Adafruit GFX Library installed.
 
