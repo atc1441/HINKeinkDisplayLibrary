@@ -4,7 +4,8 @@ Driver for HINK E-Ink E-Paper Displays Arduino
 
 This library dont uses any Buffer, it will directly write to the E-Paper Display and dont uses much RAM, it is not as fast as with buffer.
 
-One 10k Ohm Resistore is needed to use the library.
+One 10k Ohm Resistore is needed to use the library, see the example for pinout.
+
 you also need the Adafruit GFX Library installed.
 
 Tested with:
