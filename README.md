@@ -6,9 +6,14 @@ This library dont uses any Buffer, it will directly write to the E-Paper Display
 
 you also need the Adafruit GFX Library installed.
 
+Tested with:
+
 
 ### Some interesting feature is the Border:
 use it via:
+1.54" HINKE0154A35
+2.9" HINKE029A14
+4.2" HINKE042A11
 
 display.setWhiteBorder();
 
