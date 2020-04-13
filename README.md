@@ -7,6 +7,7 @@ This library dont uses any Buffer, it will directly write to the E-Paper Display
 you also need the Adafruit GFX Library installed.
 
 Tested with:
+
 1.54" HINKE0154A35
 
 2.9" HINKE029A14
